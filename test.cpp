@@ -362,7 +362,7 @@ uint8_t press_data=0;
 uint8_t para_press = 10;
 uint8_t para_temp = 30;
 uint8_t error_flag = 0;
-void temp_check()
+void data_check()
 {
     if(uart_slow) return;
     uart_slow = 1;
